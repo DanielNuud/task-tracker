@@ -20,15 +20,7 @@ public class ProjectController {
 
     @PostMapping(CREATE_PROJECT)
     public ProjectDto createProject(@RequestParam String name) {
-
+        return null;
     }
-
-    @GetMapping
-
-    @PutMapping
-
-
-
-    @DeleteMapping
 
 }
